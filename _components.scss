@@ -42,9 +42,23 @@ button {
   justify-content: flex-start;
 }
 
-#tagline2 {
+.header {
   display: block;
   color: #3a3f6a;
   font-weight: bolder;
   font-size: large;
+}
+
+.youWillFind {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.youWillFind2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
 }
