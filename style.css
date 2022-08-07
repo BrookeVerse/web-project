@@ -92,6 +92,7 @@ button {
   font-family: "Catamaran", sans-serif;
   text-align: center;
   color: #3a3f6a;
+  align-items: center;
 }
 
 a:link,
@@ -107,8 +108,13 @@ img {
   width: 50%;
 }
 
-@media screen and (max-width: 320px) {
-  section div {
-    width: 100%;
+@media screen and (min-width: 768px) {
+  main {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 991px) {
+  main {
+    width: 500px;
   }
 }
