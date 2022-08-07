@@ -6,6 +6,7 @@ nav {
 }
 
 button {
+  margin: 40px;
   background: #3a3f6a;
   color: #fefdf8;
   border-radius: 10px;
@@ -30,10 +31,11 @@ button {
 }
 
 .tagline {
+  margin: 20px;
   text-align: center;
   color: #81c6f5;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .logo {
@@ -44,10 +46,11 @@ button {
 }
 
 .header {
+  margin: 20px;
   display: block;
   color: #3a3f6a;
   font-weight: bolder;
-  font-size: large;
+  font-size: 20px;
 }
 
 .youWillFind {
@@ -104,7 +107,7 @@ img {
   width: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   section div {
     width: 100%;
   }
